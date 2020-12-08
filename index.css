@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 237, 237);
+}
+#logo{
+    width: 150px;
+    height: 100px;
+}
+#brands img{
+    width: 100%;
+    height: 100px;
+}
+.my-2{
+    background-color: rgb(176, 220, 238);
+    color: rgb(4, 132, 190);
+    border: none;
+    border-radius: 5px;
+}
+nav ul a{
+    font-weight: bold;
+}
+ul li{
+    padding : 10px;
+    margin : 5px;
+}
+#header,#protection,#testimonials,#subscribe{
+    margin-top: 100px;
+}
+
+#header p,#protection p,#testimonials p,#subscribe p ,#services p,#signin p{
+    color : rgb(170, 167, 167)
+
+}
+#header,#protection,#testimonials,#subscribe,#footer,#services{
+font-family: 'Oswald', sans-serif;
+
+}
+
+#header-input{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: rgb(201, 199, 199);
+    border-radius: 5px;
+}
+
+#basic-addon2{
+    background-color: #007bff;
+    color: white;
+}
+.header-image{
+    max-width: 550px;
+    max-height: 500px;
+}
+
+
+#protection{
+    text-align: center;
+    align-items: center;
+}
+#services{
+    margin-top: 100px;
+    text-align: left;
+}
+#services .headline{
+    text-align: center;
+}
+#services .input-group{
+    text-align: left;
+}
+
+.card{
+    height: 270px;
+    padding-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fas{
+    margin-bottom: 20px;
+}
+
+.fa-file-medical{
+    color: chocolate;
+
+}
+.fa-briefcase-medical,.fa-hand-holding-usd{
+    color: rgb(117, 197, 117);
+}
+
+.fa-capsules,.fa-shield-virus{
+    color: rgb(137, 188, 247);
+}
+
+.fa-clock{
+    color: rgb(207, 207, 4);
+}
+
+.input-group{
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input-group .fas{
+    margin: 20px 0 20px 20px;
+    width: 50px;
+    display: inline-block;
+}
+
+.col-sm-4{
+    width:50px;
+}
+#services img{
+    width: 450px;
+    border-radius: 30%;
+}
+
+#services .col-sm-6 h1,#services .col-sm-6 p{
+    text-align: left;
+}
+
+#signin{
+    margin-top: 100px;
+    min-height: 300px;
+    padding: 10px 60px;
+    color : white;
+    background-image: url("./Images//signin-background.jpg");
+}
+
+.carousel-item{
+    padding:20px 100px ;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#subscribe{
+    padding: 50px;
+}
+#subscribe img{
+    width: 400px;
+}
+
+#footer{
+    background-color: rgb(10, 2, 58);
+    color: white;
+    font-size: x-small;
+}
+#footer ul{
+    list-style: none;
+}
+#footer .col-sm-3 i{
+    color: white;
+}
